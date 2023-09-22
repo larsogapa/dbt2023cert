@@ -42,5 +42,5 @@ models:
       materialized: table
     integration:
       materialized: view
-    target:
-      materialized: table
+    target_load:
+      materialized: view
