@@ -1,2 +1,11 @@
 select *
 from {{ref('quinto_model')}}
+UNION ALL
+SELECT *
+FROM {{ref("cuarto_model")}}
+UNION ALL
+SELECT *
+FROM {{ref("tercer_model")}}
+UNION ALL
+SELECT * 
+FROM {{ref("extra_model")}}
