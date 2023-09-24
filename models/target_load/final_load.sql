@@ -1,5 +1,5 @@
-select *
-from {{ref('quinto_model')}}
+SELECT *
+FROM {{ref('quinto_model')}}
 UNION ALL
 SELECT *
 FROM {{ref("cuarto_model")}}

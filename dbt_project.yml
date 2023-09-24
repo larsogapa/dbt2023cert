@@ -35,12 +35,12 @@ models:
   my_new_project:
     # Applies to all files under models/example/
     example:
-      materialized: table
+      +materialized: table
     source:
-      materialized: table
+      +materialized: table
     stage:
-      materialized: table
+      +materialized: table
     integration:
-      materialized: view
+      +materialized: view
     target_load:
-      materialized: view
+      +materialized: view
