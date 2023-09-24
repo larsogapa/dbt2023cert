@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: raw_db
+    database: rawdbt2023
+    schema: raw_tst
+    tables:
+      - name: users
+      - name: orders
+      - name: payments
+      - name: vendors
+
